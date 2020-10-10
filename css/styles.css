@@ -1,8 +1,33 @@
 body {
+
+}
+
+header {
+    font-family: verdana;
     background-color: #27385E;
 }
 
 nav li {
+    display: inline-block;
     list-style-type: none;
+}
+
+nav a {
+    color: #608CEB;
+    text-decoration: none;
+}
+
+.nav-button {
+    color: #1C2945;
+    background-color: #608CEB;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid gray;
+    margin-right: -5px;
+}
+
+.nav-button:hover {
+    text-decoration: underline;
 }
 
