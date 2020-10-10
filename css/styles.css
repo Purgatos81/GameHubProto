@@ -1,7 +1,3 @@
-body {
-
-}
-
 header {
     font-family: verdana;
     background-color: #27385E;
@@ -31,3 +27,13 @@ nav a {
     text-decoration: underline;
 }
 
+.header-game {
+    border: solid gray;
+}
+
+.login-button {
+    background-color: #608CEB;
+    color: white;
+    padding: 14px 3px;
+    border-radius: 50%;
+}
