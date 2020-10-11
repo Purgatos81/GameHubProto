@@ -1,12 +1,14 @@
 header {
     font-family: verdana;
     background-color: #27385E;
+    border: solid grey 4px;
 }
 
 nav li {
     display: inline-block;
     list-style-type: none;
 }
+
 
 nav a {
     color: #608CEB;
