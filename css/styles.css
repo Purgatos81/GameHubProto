@@ -39,3 +39,8 @@ nav a {
     padding: 14px 3px;
     border-radius: 50%;
 }
+
+.meny {
+    display: inline-block;
+    float: right;
+}
