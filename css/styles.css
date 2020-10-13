@@ -4,6 +4,12 @@ header {
     border: solid grey 4px;
 }
 
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+
 nav li {
     display: inline-block;
     list-style-type: none;
@@ -13,6 +19,10 @@ nav li {
 nav a {
     color: #608CEB;
     text-decoration: none;
+}
+
+.top-menu {
+    margin-top: 30px;
 }
 
 .nav-button {
@@ -42,15 +52,16 @@ nav a {
 }
 
 .meny {
-    display: inline-block;
     float: right;
     margin: 20px;
 }
 
 .user {
     font-size: 25px;
+    margin-right: 5px;
 }
 
 .cart {
     font-size: 25px;
+    margin-right: 8px;
 }
