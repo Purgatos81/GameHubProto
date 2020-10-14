@@ -4,25 +4,24 @@ header {
     border: solid grey 4px;
 }
 
-.logo {
-    margin-top: 20px;
-    margin-left: 20px;
-    float: left;
-}
-
-nav li {
-    display: inline-block;
+ul {
     list-style-type: none;
+    margin-left: -25px;
+    margin-right: 18px;
 }
 
-
-nav a {
-    color: #608CEB;
-    text-decoration: none;
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .top-menu {
-    margin-top: 30px;
+    display: flex;
+}
+
+.account-menu {
+    display: flex;   
 }
 
 .nav-button {
@@ -32,15 +31,10 @@ nav a {
     text-align: center;
     padding: 10px;
     border: 1px solid gray;
-    margin-right: -5px;
 }
 
 .nav-button:hover {
     text-decoration: underline;
-}
-
-.header-game {
-    border: solid gray;
 }
 
 .login-button {
@@ -49,19 +43,19 @@ nav a {
     padding: 20px 5px;
     border-radius: 50%;
     font-size: 20px;
-}
-
-.meny {
-    float: right;
-    margin: 20px;
+    text-decoration: none;
 }
 
 .user {
     font-size: 25px;
     margin-right: 5px;
+    color: #608CEB;
+    text-decoration: none;
 }
 
 .cart {
     font-size: 25px;
     margin-right: 8px;
+    color: #608CEB;
+    text-decoration: none;
 }
