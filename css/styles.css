@@ -60,6 +60,15 @@ ul {
     text-decoration: none;
 }
 
-.back-image {
-    #background-image: url('../media/main.jpg');
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.main-game {
+    width: 100%; background-color: white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.mg-container {
+    text-align: center; padding: 10px 20px;
 }
